@@ -1,0 +1,38 @@
+.blur {
+    transform: scale(90%);
+    filter: blur(2px) brightness(60%);
+    transition: .25s cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+
+.outlet {
+    transition: .25s cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+
+.btn_sidebar {
+    position: fixed;
+    padding: 4px 6px 10px 0;
+    width: 70px;
+    height: 70px;
+    z-index: 50;
+    border: 3px #2c2c2c solid;
+    border-radius: 8px;
+    background: #444444;
+    top: 50%;
+    transform: translateX(-40px) translateY(-50px);
+
+    font-size: 32px;
+    text-align: right;
+    color: white;
+    line-height: 0;
+    transition: .25s;
+}
+
+.btn_sidebar:hover {
+    transform: translateX(-30px) translateY(-50px);
+    transition: .1s;
+}
+
+.btn_sidebar:active {
+    transform: translateX(-45px) translateY(-50px);
+    transition: .1s;
+}

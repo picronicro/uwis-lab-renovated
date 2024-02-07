@@ -1,0 +1,28 @@
+.splash_container {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    background: black;
+    z-index: 20;
+}
+
+img {
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.img_scale {
+    transform: translate(-50%, -50%) scale(1000%);
+    transition: 2s;
+}
+
+.bg_transparent {
+    filter: opacity(0%);
+    transition: 1.2s;
+}
+
+.splash_hide {
+    display: none;
+}
